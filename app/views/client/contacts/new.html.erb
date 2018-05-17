@@ -1,0 +1,19 @@
+<%= form_tag 'client/products', method: :post do %>
+<div>
+  First Name: <input type="text" name="first_name">
+</div>
+<div>
+  Middle Name: <input type="text" name="middle_name">
+</div>
+<div>
+  Last Name: <input type="text" name="last_name">
+</div>
+<div>
+  Email: <input type="text" name="email">
+</div>
+<div>
+  Bio: <textarea rows="6" cols="50" name="bio"> </textarea>
+</div>
+<input type="submit" value="Add Contact">
+
+<% end %>
