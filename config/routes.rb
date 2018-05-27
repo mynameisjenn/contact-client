@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
     get '/' => 'client/contacts#index'
+
+    get "/signup" => "users#new"
+    post "/users" => "users#create"
+
+    get "/login" => "sessions#new"
+    post "/login" => "sessions#create"
+    delete "/logout" => "sessions#destroy"
+
     namespace :client do
       get '/contacts' => 'contacts#index'
       get '/contacts/new' => 'contacts#new'
