@@ -15,6 +15,10 @@
     <a href="/login">Log In</a>
     <a href="/logout" data-method="delete">Log Out</a>
 
+  <% if @jwt %>
+    <h6><%= @jwt %></h6>
+  <% end %>
+
     <% flash.each do |name, message| %>
       <p><%= message %><p>
     <% end %>

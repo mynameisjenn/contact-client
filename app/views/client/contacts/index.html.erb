@@ -1,3 +1,12 @@
+<h5>Groups</h5>
+<ul>
+    <li><a href="/client/contacts?group=family">Family</li>
+    <li><a href="/client/contacts?group=friends">Friends</li>
+    <li><a href="/client/contacts?group=coworkers">Coworkers</li>
+</ul>
+
+
+
 <% @contacts.each do |contact| %>
   <h2>
     <a href= "/client/contacts/<%= contact["id"] %>"> 

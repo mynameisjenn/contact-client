@@ -12,7 +12,7 @@ class Client::ContactsController < ApplicationController
 
   def create
     client_params = {
-                    first_name: params[:firstname],
+                    first_name: params[:first_name],
                     middle_name: params[:middle_name],
                     last_name: params[:last_name],
                     phone_numner: params[:phone_numner],
