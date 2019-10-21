@@ -8,11 +8,9 @@
 
 
 <% @contacts.each do |contact| %>
-  <h2>
-    <a href= "/client/contacts/<%= contact["id"] %>"> 
-      <%= contact["full_name"] %></a></h2>
-  <h2>Phone Number: <%= contact["phone_numner"] %> </h2>
-  <h2>Email: <%= contact["email"] %> </h2>
-  <h2>Bio: <%= contact["bio"] %> </h2>
+  <h3><a href= "/client/contacts/<%= contact["id"] %>"> <%= contact["full_name"] %></a></h2>
+  <h4>Phone Number: <%= contact["phone_numner"] %> </h2>
+  <h4>Email: <%= contact["email"] %> </h2>
+  <h4>Bio: <%= contact["bio"] %> </h2>
   <br>
 <% end %>

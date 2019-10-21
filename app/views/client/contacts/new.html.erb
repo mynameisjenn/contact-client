@@ -1,21 +1,21 @@
 <%= form_tag '/client/contacts', method: :post do %>
-<div>
-  First Name: <input type="text" name="first_name" />
+<div >
+  First Name <input id=input1 type="text" name="first_name" />
 </div>
 <div>
-  Middle Name: <input type="text" name="middle_name" />
+  Middle Name <input id=input2 type="text" name="middle_name" />
 </div>
 <div>
-  Last Name: <input type="text" name="last_name" />
+  Last Name <input id=input3 type="text" name="last_name" />
 </div>
 <div>
-  Phone Number: <input type="text" name="phone_numner" />
+  Phone Number <input id=input4 type="text" name="phone_numner" />
 </div>
 <div>
-  Email: <input type="text" name="email" />
+  Email <input id=input5 type="text" name="email" />
 </div>
 <div>
-  Bio: <textarea rows="6" cols="50" name="bio" /> </textarea>
+  Bio <textarea rows="6" cols="50" name="bio" /> </textarea>
 </div>
 <input type="submit" value="Add Contact" />
 

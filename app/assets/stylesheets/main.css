@@ -1,0 +1,107 @@
+body {
+	background-color: #A3D1C6;
+	padding: 7%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+	padding-left: 33%;
+}
+
+a {
+	text-decoration: none; 
+}
+input {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#input1 {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#input2 {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#input3 {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#input4 {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#input5 {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 79px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: #4F877A;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+}
+
+form {
+	padding-top: 10%;
+	padding-left: 25%;
+}
